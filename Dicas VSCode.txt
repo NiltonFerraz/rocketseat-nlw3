@@ -1,0 +1,3 @@
+! + Enter = escreve a estrutura Html
+
+link + Enter = escreve a estrutura para link para adicionar ícone na pagina

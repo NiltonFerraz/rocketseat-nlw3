@@ -1,0 +1,36 @@
+/* o que é uma regra css? */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+
+    height: 100vh;
+    color: white;
+    background: #EBF2F5;
+    
+}
+
+:root {
+    font-size: 62.5%; /*mais comum usar em porcentagem mas poderia ser 10px */
+}
+
+body, input, button, textarea {
+    /* font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif; */
+
+    /* agrupamos tudo acima */
+    /* font: 400 18px/1 'Nunito', sans-serif; */
+    /* alterando de px para rem 
+    adicionei o :root (root element) que dirá qual porcentagem do tamanho da fonte, no caso 62.5 de 16px que é o padrão do navegador e aqui coloco 1.8rem que indicará que está pegando o tamanho do html pai */
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+
+
+
+
